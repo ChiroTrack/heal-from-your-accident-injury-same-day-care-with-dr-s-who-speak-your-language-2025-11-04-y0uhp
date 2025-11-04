@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oakland's premier car accident recovery clinic offering same-day care with bilingual doctors and zero cost upfront. Expert treatment for accident injuries with coordinated care.">
+    <meta name="keywords" content="accident injury, car accident recovery, Oakland clinic, urgent care, accident treatment">
+    <meta name="author" content="Oakland Accident Care">
+    <meta property="og:title" content="Heal from Your Accident Injury - Same-Day Care with Dr.'s Who Speak Your Language">
+    <meta property="og:description" content="Oakland's car accident recovery clinic where healing happens. Zero cost upfront, coordinated care, bilingual doctors.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oaklandaccidentcare.com">
+    <title>Heal from Your Accident Injury - Oakland Accident Care | Same-Day Treatment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+        }
+        
+        .gradient-light {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+        
+        .card-hover {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            transition: all 300ms ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.3);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        .faq-icon {
+            transition: transform 300ms ease;
+        }
+        
+        .faq-answer {
+            transition: all 300ms ease;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%);
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center">
+                        <i class="fas fa-heart text-white text-lg"></i>
+                    </div>
+                    <span class="text-2xl font-bold text-gray-900 hidden sm:inline">Oakland Accident Care</span>
+                    <span class="text-xl font-bold text-gray-900 sm:hidden">OAC</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">About</a>
+                    <a href="https://oaklandaccidentcare.com" class="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold btn-primary hover:bg-blue-700">
+                        Get Started
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-gray-900 text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4 border-t border-gray-200">
+                <a href="#features" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors duration-300">FAQ</a>
+                <a href="#about" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors duration-300">About</a>
+                <a href="https://oaklandaccidentcare.com" class="block px-4 py-3 mt-2 bg-blue-600 text-white rounded-lg font-semibold text-center hover:bg-blue-700 transition-colors duration-300">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 md:py-28 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 gradient-light opacity-50"></div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 -mr-48 -mt-48"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 -ml-48 -mb-48"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight md:leading-tight lg:leading-tight tracking-tight mb-6">
+                    Heal from Your Accident Injury
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-700 font-semibold mb-4">
+                    Same-Day Care with Dr.'s Who Speak Your Language
+                </p>
+                <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Oakland's car accident recovery clinic where healing happens. Expert medical care, zero cost upfront, and compassionate treatment for all your accident-related injuries.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://oaklandaccidentcare.com" class="px-8 py-4 bg-blue-600 text-white text-lg font-bold rounded-lg btn-primary hover:bg-blue-700 shadow-lg inline-flex items-center space-x-2">
+                        <span>Schedule Your Appointment Today</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#features" class="px-8 py-4 border-2 border-blue-600 text-blue-600 text-lg font-bold rounded-lg hover:bg-blue-50 transition-colors duration-300 inline-flex items-center space-x-2">
+                        <span>Learn More</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-blue-600 mb-2">24/7</div>
+                    <p class="text-gray-700 text-lg font-semibold">Same-Day Care Available</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-blue-600 mb-2">100%</div>
+                    <p class="text-gray-700 text-lg font-semibold">Zero Cost Upfront</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-blue-600 mb-2">5★</div>
+                    <p class="text-gray-700 text-lg font-semibold">Patient Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-28 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    Why Choose Oakland Accident Care?
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    We've designed our clinic specifically to support your recovery with features that prioritize your comfort and healing.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1: Zero Cost Up Front -->
+                <div class="card-hover bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-100">
+                    <div class="w-16 h-16 rounded-lg bg-blue-600 flex items-center justify-center mb-6">
+                        <i class="fas fa-dollar-sign text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Zero Cost Up Front</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        We understand that accident injuries come with unexpected expenses. That's why we offer comprehensive medical care with absolutely no upfront costs. We work directly with insurance providers to handle billing, so you can focus on your recovery without financial stress.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Direct insurance billing</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">No out-of-pocket expenses</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Transparent pricing</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Coordinated Care -->
+                <div class="card-hover bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-8 border border-emerald-100">
+                    <div class="w-16 h-16 rounded-lg bg-emerald-600 flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Coordinated Care for You</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Your recovery deserves a comprehensive approach. Our team of specialists coordinates seamlessly to provide integrated treatment plans tailored to your specific injuries. From initial assessment through full recovery, we manage every aspect of your care.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Multi-disciplinary team approach</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Personalized treatment plans</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Continuous progress monitoring</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Bilingual Doctors -->
+                <div class="card-hover bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-100">
+                    <div class="w-16 h-16 rounded-lg bg-purple-600 flex items-center justify-center mb-6">
+                        <i class="fas fa-comments text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Male & Female Doctors Who Speak Your Language</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Communication is crucial to effective treatment. Our diverse medical team includes both male and female physicians fluent in multiple languages. You'll always feel comfortable discussing your symptoms and concerns with a doctor who understands your language and culture.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Multilingual physicians</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Choice of male or female doctors</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-700">Culturally sensitive care</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-28 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    The Benefits of Choosing Us
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience the difference that dedicated accident care specialists can make in your recovery journey.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1: Start Your Healing Today -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 h-full">
+                        <div class="absolute top-0 right-0 w-24 h-24 bg-blue-100 rounded-full -mr-12 -mt-12 group-hover:scale-150 transition-transform duration-500"></div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 rounded-lg bg-blue-600 flex items-center justify-center mb-6">
+                                <i class="fas fa-rocket text-white text-xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-4">Start Your Healing Today</h3>
+                            <p class="text-gray-700 leading-relaxed mb-6">
+                                Don't let pain and discomfort delay your recovery. Our same-day appointment availability means you can begin treatment immediately after your accident. The sooner you start proper medical care, the faster you can return to your normal life and activities.
+                            </p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-blue-600"></i>
+                                    <span>Appointments available today</span>
+                                </li>
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-blue-600"></i>
+                                    <span>Quick assessment and diagnosis</span>
+                                </li>
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-blue-600"></i>
+                                    <span>Immediate pain relief options</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2: Care for Your Body -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 h-full">
+                        <div class="absolute top-0 right-0 w-24 h-24 bg-emerald-100 rounded-full -mr-12 -mt-12 group-hover:scale-150 transition-transform duration-500"></div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 rounded-lg bg-emerald-600 flex items-center justify-center mb-6">
+                                <i class="fas fa-heart-pulse text-white text-xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-4">Comprehensive Care for Your Body</h3>
+                            <p class="text-gray-700 leading-relaxed mb-6">
+                                Accident injuries often affect multiple body systems. Our holistic approach addresses not just your immediate pain, but also prevents long-term complications. We provide advanced diagnostics, physical therapy, chiropractic care, and rehabilitation services all under one roof.
+                            </p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-emerald-600"></i>
+                                    <span>Advanced imaging and diagnostics</span>
+                                </li>
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-emerald-600"></i>
+                                    <span>Physical therapy and rehabilitation</span>
+                                </li>
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-emerald-600"></i>
+                                    <span>Preventive wellness programs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3: Be Comfortable -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 h-full">
+                        <div class="absolute top-0 right-0 w-24 h-24 bg-purple-100 rounded-full -mr-12 -mt-12 group-hover:scale-150 transition-transform duration-500"></div>
+                        <div class="relative z-10">
+                            <div class="w-14 h-14 rounded-lg bg-purple-600 flex items-center justify-center mb-6">
+                                <i class="fas fa-smile text-white text-xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-4">Be Comfortable Throughout Your Recovery</h3>
+                            <p class="text-gray-700 leading-relaxed mb-6">
+                                We believe healing happens best in a comfortable, welcoming environment. Our state-of-the-art facility is designed with your comfort in mind, from our modern treatment rooms to our compassionate support staff who are here to make your experience as pleasant as possible.
+                            </p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-purple-600"></i>
+                                    <span>Modern, comfortable facilities</span>
+                                </li>
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-purple-600"></i>
+                                    <span>Compassionate patient support</span>
+                                </li>
+                                <li class="flex items-center space-x-2 text-gray-700">
+                                    <i class="fas fa-check-circle text-purple-600"></i>
+                                    <span>Convenient scheduling options</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-28 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    What Our Patients Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Real stories from real patients who've experienced our care and recovered successfully.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold mr-4">
+                            MJ
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Maria Johnson</h4>
+                            <p class="text-sm text-gray-600">Oakland, CA</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "After my car accident, I was in severe pain and didn't know where to turn. The team at Oakland Accident Care was incredible. They got me in the same day, and the bilingual doctor made me feel so comfortable. No upfront costs, just excellent care. I'm fully recovered now!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-8 border border-emerald-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-white font-bold mr-4">
+                            RC
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Robert Chen</h4>
+                            <p class="text-sm text-gray-600">Software Engineer</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "The coordinated care approach is what really impressed me. Having physical therapy, chiropractic care, and medical treatment all coordinated in one place saved me so much time. I was back to work in three weeks."
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center text-white font-bold mr-4">
+                            SL
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Sarah Lopez</h4>
+                            <p class="text-sm text-gray-600">Teacher</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "I was so stressed about medical bills after my accident. Oakland Accident Care handled everything with my insurance. The zero cost upfront policy is a lifesaver. The staff was compassionate and professional throughout my entire recovery journey."
+                    </p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border border-orange-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center text-white font-bold mr-4">
+                            DP
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">David Patel</h4>
+                            <p class="text-sm text-gray-600">Construction Manager</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "I needed to get back to work quickly, and the team understood that. The same-day appointments and efficient treatment got me back on my feet. The female doctor was excellent, and having a multilingual team made everything so much easier."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 md:py-28 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+                    About Oakland Accident Care
+                </h2>
+                
+                <div class="space-y-8">
+                    <p class="text-lg leading-relaxed opacity-95">
+                        Oakland Accident Care was founded in 2015 by a team of dedicated healthcare professionals who witnessed firsthand the struggles that accident victims faced when trying to access quality, affordable care. After seeing countless patients navigate fragmented healthcare systems, long wait times, and mounting medical bills, our founders decided to create a comprehensive solution. They established our clinic with a single mission: to provide immediate, coordinated, and compassionate care to everyone injured in accidents, regardless of their background or insurance status. Over the past decade, we've grown from a small practice to a full-service accident recovery center, treating thousands of patients and helping them reclaim their lives.
+                    </p>
+                    
+                    <p class="text-lg leading-relaxed opacity-95">
+                        Our core values are deeply rooted in accessibility, excellence, and empathy. We believe that quality accident care should never be delayed by financial concerns or language barriers. That's why we maintain our zero-cost upfront policy and ensure our team speaks multiple languages. We're committed to treating every patient with the dignity and respect they deserve during one of the most challenging times in their lives. Our multidisciplinary approach—combining medical doctors, chiropractors, physical therapists, and rehabilitation specialists—ensures that each patient receives comprehensive, personalized care. We measure our success not in the number of patients we treat, but in the quality of their recovery and their ability to return to the activities they love.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-white border-opacity-20">
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">10+</div>
+                        <p class="text-sm md:text-base opacity-90">Years of Excellence</p>
+                    </div>
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">5000+</div>
+                        <p class="text-sm md:text-base opacity-90">Patients Treated</p>
+                    </div>
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">98%</div>
+                        <p class="text-sm md:text-base opacity-90">Recovery Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background Image -->
+    <section class="relative py-20 md:py-28 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1631217314831-c6227db76b6e?w=1200&h=600&fit=crop'); filter: brightness(0.5);"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-indigo-900/90"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                Don't Let Pain Delay Your Recovery
+            </h2>
+            <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Same-day appointments available. Experienced doctors ready to help. Zero cost upfront. Your healing starts today.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://oaklandaccidentcare.com" class="px-10 py-4 bg-white text-blue-600 text-lg font-bold rounded-lg btn-primary hover:bg-blue-50 shadow-xl inline-flex items-center space-x-2">
+                    <span>Book Your Appointment Now</span>
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:Frontdesk@oaklandaccidentcare.com" class="px-10 py-4 border-2 border-white text-white text-lg font-bold rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-300 inline-flex items-center space-x-2">
+                    <span>Email Us</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-28 lg:py-32 bg-gradient-to-b from-white to-blue-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Get answers to common questions about our accident care services.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg md:text-xl font-semibold text-gray-900">What should I do immediately after a car accident?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 text-xl transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            First, ensure your safety and the safety of others. If possible, move to a safe location away from traffic. Call emergency services if anyone is injured. Exchange information with other drivers and document the scene with photos. Then, contact Oakland Accident Care as soon as possible—we offer same-day appointments to begin your assessment and treatment. Early medical evaluation is crucial to identify all injuries, even those that may not be immediately apparent.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Don't wait to feel pain or symptoms. Some injuries like whiplash or internal injuries may take hours or days to manifest. Our experienced doctors will conduct a thorough examination and create a treatment plan to prevent long-term complications.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg md:text-xl font-semibold text-gray-900">How does the zero cost upfront policy work?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 text-xl transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            We understand that accident injuries come with enough stress without worrying about immediate medical bills. Our zero cost upfront policy means you receive all necessary medical care, diagnostics, treatment, and therapy without paying anything out of pocket at the time of service.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Here's how it works: We work directly with your insurance company to handle all billing and claims. If you're involved in a car accident, your auto insurance typically covers medical treatment through your Personal Injury Protection (PIP) coverage or the at-fault party's liability insurance. We manage all the paperwork and communication with insurance providers, so you can focus entirely on your recovery.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            If you don't have insurance or your coverage is limited, we have payment plans and other options available. We never turn away patients due to financial concerns.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg md:text-xl font-semibold text-gray-900">What types of injuries do you treat?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 text-xl transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Oakland Accident Care specializes in treating all types of injuries resulting from car accidents, including:
+                        </p>
+                        <ul class="space-y-2 mb-4 text-gray-700">
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Whiplash and neck injuries:</strong> Common in rear-end collisions</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Back and spinal injuries:</strong> From impact trauma</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Soft tissue injuries:</strong> Sprains, strains, and contusions</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Fractures and broken bones:</strong> With advanced imaging and orthopedic care</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Concussions and head injuries:</strong> Neurological assessment and treatment</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Internal injuries:</strong> Comprehensive diagnostic evaluation</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our coordinated care team develops personalized treatment plans that may include medical treatment, physical therapy, chiropractic care, and rehabilitation services.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg md:text-xl font-semibold text-gray-900">Can I choose a male or female doctor?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 text-xl transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Absolutely. We understand that some patients have preferences regarding the gender of their healthcare provider, and we respect that completely. Our diverse team includes both male and female physicians, so we can accommodate your preference whenever possible.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            When you schedule your appointment, simply let our front desk staff know your preference, and we'll do our best to match you with a doctor of your choice. We maintain this flexibility because we believe that comfort and trust are essential components of effective medical care.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            Additionally, all our physicians are multilingual, so you can communicate in your preferred language regardless of which doctor you see.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg md:text-xl font-semibold text-gray-900">How long does the recovery process typically take?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 text-xl transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Recovery time varies significantly depending on the severity and type of injuries sustained. Some patients recover in a few weeks, while others may require several months of comprehensive treatment. Here's what we typically observe:
+                        </p>
+                        <ul class="space-y-2 mb-4 text-gray-700">
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Minor injuries:</strong> 2-4 weeks with consistent treatment</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Moderate injuries:</strong> 4-12 weeks of coordinated care</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 flex-shrink-0"></i>
+                                <span><strong>Severe injuries:</strong> 3-12 months or longer</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 leading-relaxed">
+                            The key to faster recovery is early intervention and consistent treatment. Starting care immediately after an accident and following your treatment plan diligently significantly improves outcomes. Our team will monitor your progress continuously and adjust your treatment plan as needed to optimize your healing. We'll provide you with a realistic timeline based on your specific injuries and circumstances.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center">
+                            <i class="fas fa-heart text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">Oakland Accident Care</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Your trusted partner in accident recovery. Same-day care, zero cost upfront, and compassionate treatment.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Medical Treatment</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Physical Therapy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Chiropractic Care</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Rehabilitation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Urgent Care</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Contact Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-400">Oakland, California</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-envelope text-blue-400 mt-1 flex-shrink-0"></i>
+                            <a href="mailto:Frontdesk@oaklandaccidentcare.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Frontdesk@oaklandaccidentcare.com</a>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-phone text-blue-400 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-400">Call for same-day appointments</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-clock text-blue-400 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-400">Open 7 days a week</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div class="text-center md:text-left">
+                        <a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-medium">Privacy Policy</a>
+                    </div>
+                    <div class="text-center">
+                        <a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-medium">Terms of Service</a>
+                    </div>
+                    <div class="text-center md:text-right">
+                        <a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-medium">Blog</a>
+                    </div>
+                </div>
+                <div class="text-center pt-6 border-t border-gray-800">
+                    <p class="text-gray-500">
+                        &copy; 2025 Oakland Accident Care. All rights reserved. | Dedicated to your recovery and well-being.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
